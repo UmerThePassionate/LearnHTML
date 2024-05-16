@@ -59,9 +59,12 @@ An HTML element is defined by a start tag, some content, and an end tag:
      <h3> <tagname> Content goes here... </tagname> </h3>
 
 The HTML element is everything from the start tag to the end tag:
+```
+<h3> <h1>My First Heading</h1> </h3>
+<h3> <p>My first paragraph.</p> </h3>
+```
 
-<h3> <h1>My First Heading</h1> 
-     <p>My first paragraph.</p>
+     
 </h3>
 
 <h2>Web Browsers</h2>
@@ -72,6 +75,18 @@ The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML doc
 A browser does not display the HTML tags, but uses them to determine how to display the document:
 
 ![variableExample1](https://www.w3schools.com/html/img_chrome.png)<br><br>
+
+
+
+
+
+
+
+![variableExample1](https://scontent.fisb1-2.fna.fbcdn.net/v/t1.6435-9/179112594_106814681559996_3638101514266665353_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9v9PwiApR34Q7kNvgHREgRf&_nc_ht=scontent.fisb1-2.fna&oh=00_AYCqNdF-MhE1E33_AWuMpCxl2JtWXbP-em2j5Mm6r2I4ow&oe=666D2246)<br><br>
+
+
+
+
 
 
 
