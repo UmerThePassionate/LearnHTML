@@ -616,13 +616,14 @@ The text inside a `<pre>` element is displayed in a fixed-width font (usually Co
 
 <h1>HTML Styles</h1>
 
+
 The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
 
 
 <h2>The HTML Style Attribute<h2>
 
-Setting the style of an HTML element, can be done with the style attribute.
 
+Setting the style of an HTML element, can be done with the style attribute.
 The HTML style attribute has the following syntax:
 
 ```
