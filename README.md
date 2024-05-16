@@ -795,7 +795,8 @@ The HTML `<sub>` element defines subscript text. Subscript text appears half a c
 <p>This is <sub>subscripted</sub> text.</p>
 ```
 
-<h2>HTML `<sup>` Element</h2>
+## HTML `<sup>` Element
+
 
 The HTML `<sup>` element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW`[1]`:
 
