@@ -810,7 +810,7 @@ The HTML `<sup>` element defines superscript text. Superscript text appears half
 
 <h1>HTML Quotation and Citation Elements</h1>
 
-In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements.
+In this chapter we will go through the `<blockquote>`,`<q>`, `<abbr>`, `<address>`, `<cite>`, and `<bdo>` HTML elements.
 
 ```
 Here is a quote from WWF's website:
@@ -818,11 +818,11 @@ Here is a quote from WWF's website:
 For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
 ```
 
-<h2>HTML <blockquote> for Quotations</h2>
+## HTML `<blockquote>` for Quotations
 
-The HTML <blockquote> element defines a section that is quoted from another source.
+The HTML `<blockquote>` element defines a section that is quoted from another source.
 
-Browsers usually indent <blockquote> elements.
+Browsers usually indent `<blockquote>` elements.
 
 ### Example
 ```
