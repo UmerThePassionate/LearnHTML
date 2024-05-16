@@ -467,3 +467,327 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 - The style attribute is used to add styles to an element, such as color, font, size, and more
 - The lang attribute of the <html> tag declares the language of the Web page
 - The title attribute defines some extra information about an element
+
+
+<h1>HTML Headings</h1>
+
+HTML headings are titles or subtitles that you want to display on a webpage.
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+
+<h2>HTML Headings</h2>
+
+HTML headings are defined with the `<h1>` to `<h6>` tags.
+
+`<h1>` defines the most important heading. `<h6>` defines the least important heading.
+
+```
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+<h2>Headings Are Important</h2>
+
+Search engines use the headings to index the structure and content of your web pages.
+
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+`<h1>` headings should be used for main headings, followed by `<h2>` headings, then the less important `<h3>`, and so on.
+
+<h2>Bigger Headings></h2>
+
+```
+<h1 style="font-size:60px;">Heading 1</h1>
+```
+
+
+<h1>HTML Paragraphs</h1>
+
+The HTML `<p>` element defines a paragraph.
+
+A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+
+```
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+```
+
+<h2>HTML Display</h2>
+
+You cannot be sure how HTML will be displayed.
+
+Large or small screens, and resized windows will create different results.
+
+With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+
+The browser will automatically remove any extra spaces and lines when the page is displayed:
+
+```
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</p>
+```
+
+<h2>HTML Horizontal Rules</h2>
+
+The `<hr>` tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+
+The `<hr>` element is used to separate content (or define a change) in an HTML page:
+
+```
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+```
+The <hr> tag is an empty tag, which means that it has no end tag.
+
+
+<h2>HTML Line Breaks</h2>
+
+The HTML `<br>` element defines a line break.
+
+Use `<br>` if you want a line break (a new line) without starting a new paragraph:
+
+```
+<p>This is<br>a paragraph<br>with line breaks.</p>
+```
+The <br> tag is an empty tag, which means that it has no end tag.
+
+
+<h2>The Poem Problem</h2>
+
+This poem will display on a single line:
+
+```
+<p>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</p>
+```
+
+<h2>Solution - The HTML <pre> Element</h2>
+
+The HTML `<pre>` element defines preformatted text.
+
+The text inside a `<pre>` element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:  
+
+```
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre
+```
+
+
+<h1>HTML Styles</h1>
+
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+
+
+<h2>The HTML Style Attribute<h2>
+
+Setting the style of an HTML element, can be done with the style attribute.
+
+The HTML style attribute has the following syntax:
+
+```
+<tagname style="property:value;">
+```
+The property is a CSS property. The value is a CSS value.
+
+
+<h2>Background Color</h2>
+
+The CSS background-color property defines the background color for an HTML element.
+
+<h5>Set the background color for a page to powderblue:</h5>
+```
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+```
+
+<h5>Set background color for two different elements:</h5>
+
+```
+<body>
+
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+
+</body>
+```
+
+<h2>Text Color</h2>
+
+The CSS color property defines the text color for an HTML element:
+
+```
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+```
+
+<h2>Fonts</h2>
+
+The CSS font-family property defines the font to be used for an HTML element:
+
+```
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+```
+
+<h2>Text Size</h2>
+
+The CSS font-size property defines the text size for an HTML element:
+
+```
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+```
+
+<h2>Text Alignment</h2>
+
+The CSS text-align property defines the horizontal text alignment for an HTML element:
+
+```
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+```
+
+<h1>Chapter Summary</h1>
+
+- Use the `style attribute` for styling HTML elements
+- Use `background-color` for background color
+- Use `color` for text colors
+- Use `font-family` for text fonts
+- Use `font-size` for text sizes
+- Use `text-align` for text alignment
+
+
+
+
+
+<h1>HTML Text Formatting</h1>
+
+HTML contains several elements for defining text with a special meaning.
+
+<h2>HTML Formatting Elements</h2>
+
+Formatting elements were designed to display special types of text:
+
+- `<b>` - Bold text
+- `<strong>` - Important text
+- `<i>` - Italic text
+- `<em>` - Emphasized text
+- `<mark>` - Marked text
+- `<small>` - Smaller text
+-`<del>` - Deleted text
+- `<ins>` - Inserted text
+-`<sub>` - Subscript text
+- `<sup>` - Superscript text
+
+<h2>HTML `<b>` and `<strong>` Elements</h2>
+
+The HTML `<b>` element defines bold text, without any extra importance.
+
+```<b>This text is bold</b>```
+The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.
+
+```<strong>This text is important!</strong>```
+
+<h2>HTML `<i>` and `<em>` Elements</h2>
+
+The HTML `<i>` element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+
+<h5>Tip:</h5> The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
+
+```<i>This text is italic</i>```
+
+The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
+
+<h5>Tip:</h5> A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
+
+```<em>This text is emphasized</em>```
+
+<h2>HTML `<small>` Element</h2>
+
+The HTML `<small>` element defines smaller text:
+
+```<small>This is some smaller text.</small>```
+
+<h2>HTML `<mark>` Element</h2>
+
+The HTML `<mark>` element defines text that should be marked or highlighted:
+
+```<p>Do not forget to buy <mark>milk</mark> today.</p>```
+
+<h2>HTML `<del>` Element</h2>
+
+The HTML `<del>` element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:
+
+```<p>My favorite color is <del>blue</del> red.</p>```
+
+<h2>HTML `<ins>` Element</h2>
+
+The HTML `<ins>` element defines a text that has been inserted into a document. Browsers will usually underline inserted text:
+
+```<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>```
+
+<h2>HTML <sub> Element</h2>
+
+The HTML `<sub>` element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
+
+```<p>This is <sub>subscripted</sub> text.</p>```
+
+<h2>HTML <sup> Element</h2>
+
+The HTML `<sup>` element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW`[1]`:
+
+```<p>This is <sup>superscripted</sup> text.</p>```
+
+
+
+
+
+
+
+
+
