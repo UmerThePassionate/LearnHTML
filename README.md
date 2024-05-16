@@ -214,7 +214,7 @@ The <!DOCTYPE> declaration for HTML5 is:
 
 <h2>HTML Paragraphs</h2>
 
-HTML paragraphs are defined with the <p> tag:
+"HTML paragraphs are defined with the <p> tag:"
 
 ```
 <p>This is a paragraph.</p>
