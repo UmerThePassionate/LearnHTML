@@ -564,7 +564,7 @@ The `<hr>` element is used to separate content (or define a change) in an HTML p
 <p>This is some other text.</p>
 <hr>
 ```
-The <hr> tag is an empty tag, which means that it has no end tag.
+The `<hr>` tag is an empty tag, which means that it has no end tag.
 
 
 <h2>HTML Line Breaks</h2>
@@ -576,7 +576,7 @@ Use `<br>` if you want a line break (a new line) without starting a new paragrap
 ```
 <p>This is<br>a paragraph<br>with line breaks.</p>
 ```
-The <br> tag is an empty tag, which means that it has no end tag.
+The `<br>` tag is an empty tag, which means that it has no end tag.
 
 
 <h2>The Poem Problem</h2>
@@ -595,7 +595,7 @@ This poem will display on a single line:
 </p>
 ```
 
-<h2>Solution - The HTML <pre> Element</h2>
+## Solution - The HTML <pre> Element
 
 The HTML `<pre>` element defines preformatted text.
 
@@ -636,6 +636,7 @@ The property is a CSS property. The value is a CSS value.
 The CSS background-color property defines the background color for an HTML element.
 
 <h5>Set the background color for a page to powderblue:</h5>
+
 ```
 <body style="background-color:powderblue;">
 
@@ -724,24 +725,24 @@ Formatting elements were designed to display special types of text:
 -`<sub>` - Subscript text
 - `<sup>` - Superscript text
 
-<h2>HTML `<b>` and `<strong>` Elements</h2>
+## HTML `<b>` and `<strong>` Elements
 
 The HTML `<b>` element defines bold text, without any extra importance.
 
 ```
 <b>This text is bold</b>
 ```
-The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.
+The HTML `<strong>` element defines text with strong importance. The content inside is typically displayed in bold.
 
 ```
 <strong>This text is important!</strong>
 ```
 
-<h2>HTML `<i>` and `<em>` Elements</h2>
+## HTML `<i>` and `<em>` Elements
 
 The HTML `<i>` element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
 
-<h5>Tip:</h5> The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
+Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
 
 ```
 <i>This text is italic</i>
@@ -749,13 +750,13 @@ The HTML `<i>` element defines a part of text in an alternate voice or mood. The
 
 The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
 
-<h5>Tip:</h5> A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
+Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
 
 ```
 <em>This text is emphasized</em>
 ```
 
-<h2>HTML `<small>` Element</h2>
+## HTML `<small>` Element
 
 The HTML `<small>` element defines smaller text:
 
@@ -763,7 +764,7 @@ The HTML `<small>` element defines smaller text:
 <small>This is some smaller text.</small>
 ```
 
-<h2>HTML `<mark>` Element</h2>
+## HTML `<mark>` Element
 
 The HTML `<mark>` element defines text that should be marked or highlighted:
 
@@ -771,7 +772,7 @@ The HTML `<mark>` element defines text that should be marked or highlighted:
 <p>Do not forget to buy <mark>milk</mark> today.</p>
 ```
 
-<h2>HTML `<del>` Element</h2>
+## HTML `<del>` Element
 
 The HTML `<del>` element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:
 
@@ -779,7 +780,7 @@ The HTML `<del>` element defines text that has been deleted from a document. Bro
 <p>My favorite color is <del>blue</del> red.</p>
 ```
 
-<h2>HTML `<ins>` Element</h2>
+## HTML `<ins>` Element
 
 The HTML `<ins>` element defines a text that has been inserted into a document. Browsers will usually underline inserted text:
 
@@ -787,7 +788,7 @@ The HTML `<ins>` element defines a text that has been inserted into a document. 
 <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
 ```
 
-<h2>HTML <sub> Element</h2>
+## HTML <sub> Element
 
 The HTML `<sub>` element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
 
