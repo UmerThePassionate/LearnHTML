@@ -728,10 +728,14 @@ Formatting elements were designed to display special types of text:
 
 The HTML `<b>` element defines bold text, without any extra importance.
 
-```<b>This text is bold</b>```
+```
+<b>This text is bold</b>
+```
 The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.
 
-```<strong>This text is important!</strong>```
+```
+<strong>This text is important!</strong>
+```
 
 <h2>HTML `<i>` and `<em>` Elements</h2>
 
@@ -739,49 +743,65 @@ The HTML `<i>` element defines a part of text in an alternate voice or mood. The
 
 <h5>Tip:</h5> The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
 
-```<i>This text is italic</i>```
+```
+<i>This text is italic</i>
+```
 
 The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
 
 <h5>Tip:</h5> A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
 
-```<em>This text is emphasized</em>```
+```
+<em>This text is emphasized</em>
+```
 
 <h2>HTML `<small>` Element</h2>
 
 The HTML `<small>` element defines smaller text:
 
-```<small>This is some smaller text.</small>```
+```
+<small>This is some smaller text.</small>
+```
 
 <h2>HTML `<mark>` Element</h2>
 
 The HTML `<mark>` element defines text that should be marked or highlighted:
 
-```<p>Do not forget to buy <mark>milk</mark> today.</p>```
+```
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+```
 
 <h2>HTML `<del>` Element</h2>
 
 The HTML `<del>` element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:
 
-```<p>My favorite color is <del>blue</del> red.</p>```
+```
+<p>My favorite color is <del>blue</del> red.</p>
+```
 
 <h2>HTML `<ins>` Element</h2>
 
 The HTML `<ins>` element defines a text that has been inserted into a document. Browsers will usually underline inserted text:
 
-```<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>```
+```
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+```
 
 <h2>HTML <sub> Element</h2>
 
 The HTML `<sub>` element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
 
-```<p>This is <sub>subscripted</sub> text.</p>```
+```
+<p>This is <sub>subscripted</sub> text.</p>
+```
 
-<h2>HTML <sup> Element</h2>
+<h2>HTML `<sup>` Element</h2>
 
 The HTML `<sup>` element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW`[1]`:
 
-```<p>This is <sup>superscripted</sup> text.</p>```
+```
+<p>This is <sup>superscripted</sup> text.</p>
+```
 
 
 
