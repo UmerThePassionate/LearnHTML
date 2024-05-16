@@ -808,9 +808,102 @@ The HTML `<sup>` element defines superscript text. Superscript text appears half
 
 
 
+<h1>HTML Quotation and Citation Elements</h1>
+
+In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements.
+
+```
+Here is a quote from WWF's website:
+
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+```
+
+<h2>HTML <blockquote> for Quotations</h2>
+
+The HTML <blockquote> element defines a section that is quoted from another source.
+
+Browsers usually indent <blockquote> elements.
+
+### Example
+```
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+```
+
+## HTML `<q>` for Short Quotations
+
+The HTML `<q>` tag defines a short quotation.
+
+Browsers normally insert quotation marks around the quotation.
+
+```
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+```
 
 
+# HTML Comments
+
+HTML comments are not displayed in the browser, but they can help document your HTML source code.
+
+## HTML Comment Tag
 
 
+```
+<!-- Write your comments here -->
+```
+
+## Add Comments
+
+With comments you can place notifications and reminders in your HTML code:
+
+```
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+
+<!-- Remember to add more information here -->
+```
 
 
+# HTML Colors
+
+HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+
+## Color Names
+
+In HTML, a color can be specified by using a color name:
+
+## Background Color
+
+You can set the background color for HTML elements:
+
+<div style="background-color:dodgerblue; text-align:center;color:white;font-size:24px;">Hello World</div>
+
+```
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+```
+
+
+## Text Color
+
+You can set the color of text:
+
+### example
+
+```
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+```
+
+## Background Color
+
+You can set the color of borders:
+
+```
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+```
