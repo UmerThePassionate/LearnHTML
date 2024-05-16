@@ -286,7 +286,7 @@ The `<html>` element is the root element and it defines the whole HTML document.
 
 It has a start tag `<html>` and an end tag `</html>`.
 
-Then, inside the <html> element there is a <body> element:
+Then, inside the `<html>` element there is a `<body>` element:
 
 ```
 <body>
@@ -460,12 +460,12 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 <h2>Chapter Summary</h2>
 
 - All HTML elements can have attributes
-- The href attribute of <a> specifies the URL of the page the link goes to
-- The src attribute of <img> specifies the path to the image to be displayed
-- The width and height attributes of <img> provide size information for images
-- The alt attribute of <img> provides an alternate text for an image
+- The href attribute of `<a>` specifies the URL of the page the link goes to
+- The src attribute of `<img>` specifies the path to the image to be displayed
+- The width and height attributes of `<img>` provide size information for images
+- The alt attribute of `<img>` provides an alternate text for an image
 - The style attribute is used to add styles to an element, such as color, font, size, and more
-- The lang attribute of the <html> tag declares the language of the Web page
+- The lang attribute of the `<html>` tag declares the language of the Web page
 - The title attribute defines some extra information about an element
 
 
@@ -595,7 +595,7 @@ This poem will display on a single line:
 </p>
 ```
 
-## Solution - The HTML <pre> Element
+## Solution - The HTML `<pre>` Element
 
 The HTML `<pre>` element defines preformatted text.
 
@@ -614,13 +614,13 @@ The text inside a `<pre>` element is displayed in a fixed-width font (usually Co
 ```
 
 
-<h1>HTML Styles</h1>
+# HTML Styles
 
 
 The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
 
 
-<h2>The HTML Style Attribute<h2>
+## The HTML Style Attribute
 
 
 Setting the style of an HTML element, can be done with the style attribute.
@@ -632,7 +632,7 @@ The HTML style attribute has the following syntax:
 The property is a CSS property. The value is a CSS value.
 
 
-<h2>Background Color</h2>
+## Background Color
 
 The CSS background-color property defines the background color for an HTML element.
 
@@ -676,7 +676,7 @@ The CSS font-family property defines the font to be used for an HTML element:
 <p style="font-family:courier;">This is a paragraph.</p>
 ```
 
-<h2>Text Size</h2>
+## Text Size
 
 The CSS font-size property defines the text size for an HTML element:
 
@@ -685,7 +685,7 @@ The CSS font-size property defines the text size for an HTML element:
 <p style="font-size:160%;">This is a paragraph.</p>
 ```
 
-<h2>Text Alignment</h2>
+# Text Alignment
 
 The CSS text-align property defines the horizontal text alignment for an HTML element:
 
@@ -694,7 +694,7 @@ The CSS text-align property defines the horizontal text alignment for an HTML el
 <p style="text-align:center;">Centered paragraph.</p>
 ```
 
-<h1>Chapter Summary</h1>
+# Chapter Summary
 
 - Use the `style attribute` for styling HTML elements
 - Use `background-color` for background color
@@ -707,11 +707,11 @@ The CSS text-align property defines the horizontal text alignment for an HTML el
 
 
 
-<h1>HTML Text Formatting</h1>
+# HTML Text Formatting
 
 HTML contains several elements for defining text with a special meaning.
 
-<h2>HTML Formatting Elements</h2>
+## HTML Formatting Elements
 
 Formatting elements were designed to display special types of text:
 
@@ -912,7 +912,7 @@ You can set the color of borders:
 
 In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
 
-The following three <div> elements have their background color set with RGB, HEX, and HSL values:
+The following three `<div>` elements have their background color set with RGB, HEX, and HSL values:
 
 ### example
 
@@ -1420,7 +1420,7 @@ Everything between `<td>` and `</td>` are the content of the table cell.
 
 ## Table Rows
 
-Each table row starts with a <tr> and ends with a </tr> tag.
+Each table row starts with a `<tr>` and ends with a `</tr>` tag.
 
 tr stands for table row.
 
@@ -1444,7 +1444,7 @@ You can have as many rows as you like in a table; just make sure that the number
 
 ## Table Headers
 
-Sometimes you want your cells to be table header cells. In those cases use the <th> tag instead of the <td> tag:
+Sometimes you want your cells to be table header cells. In those cases use the `<th>` tag instead of the `<td>` tag:
 
 th stands for table header.
 
@@ -1561,7 +1561,7 @@ Use the style attribute with the width or height properties to specify the size 
 
 ## HTML Table Width
 
-To set the width of a table, add the style attribute to the <table> element:
+To set the width of a table, add the style attribute to the `<table>` element:
 
 ### Example
 
@@ -2370,7 +2370,7 @@ A responsive web design will automatically adjust for different screen sizes and
 Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):
 
 ## Setting The Viewport
-To create a responsive website, add the following <meta> tag to all your web pages:
+To create a responsive website, add the following `<meta>` tag to all your web pages:
 
 ### Example
 ```
@@ -2410,6 +2410,6 @@ Semantic elements = elements with a meaning.
 What are Semantic Elements?
 A semantic element clearly describes its meaning to both the browser and the developer.
 
-#### Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+#### Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
 
-#### Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+#### Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines its content.
