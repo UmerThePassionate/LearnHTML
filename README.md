@@ -383,13 +383,13 @@ The `<img>` tag is used to embed an image in an HTML page. The src attribute spe
 
 There are two ways to specify the URL in the src attribute:
 
-<h6>Absolute URL</h6>
+<h3>Absolute URL</h3>
 
-Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+Links to an external image that is hosted on another website. Example: src="https://www.codewithumer.com/images/img_girl.jpg".
 
-<h7>Notes:</h7>External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+<h5>Notes:</h5>External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
 
-<h6>Relative URL</h6>
+<h3>Relative URL</h3>
 
 Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
 
