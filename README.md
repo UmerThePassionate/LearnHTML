@@ -60,13 +60,11 @@ An HTML element is defined by a start tag, some content, and an end tag:
 
 The HTML element is everything from the start tag to the end tag:
 ```
-<h3> <h1>My First Heading</h1> </h3>
-<h3> <p>My first paragraph.</p> </h3>
+ <h1>My First Heading</h1> 
+ <p>My first paragraph.</p> 
 ```
 
      
-</h3>
-
 <h2>Web Browsers</h2>
 
 
@@ -168,11 +166,11 @@ Don't worry if we use tags you have not learned about yet.
 <h3>HTML Documents</h3>
 
 
-All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+All HTML documents must start with a document type declaration: `<!DOCTYPE html>`.
 
-The HTML document itself begins with <html> and ends with </html>.
+The HTML document itself begins with `<html>` and ends with `</html>`.
 
-The visible part of the HTML document is between <body> and </body>.
+The visible part of the HTML document is between `<body>` and `</body>`.
 
 ```
 <!DOCTYPE html>
@@ -192,9 +190,9 @@ The <!DOCTYPE> declaration represents the document type, and helps browsers to d
 
 It must only appear once, at the top of the page (before any HTML tags).
 
-The <!DOCTYPE> declaration is not case sensitive.
+The `<!DOCTYPE>` declaration is not case sensitive.
 
-The <!DOCTYPE> declaration for HTML5 is:
+The `<!DOCTYPE>` declaration for HTML5 is:
 
 ```
 <!DOCTYPE html>
@@ -202,9 +200,10 @@ The <!DOCTYPE> declaration for HTML5 is:
 
 <h2>HTML Headings</h2>
 
-- HTML headings are defined with the <h1> to <h6> tags.
 
-- <h1> defines the most important heading. <h6> defines the least important heading: 
+HTML headings are defined with the `<h1>` to `<h6>` tags.
+`<h1>` defines the most important heading. `<h6>` defines the least important heading: 
+
 
 ```
 <h1>This is heading 1</h1>
@@ -214,7 +213,8 @@ The <!DOCTYPE> declaration for HTML5 is:
 
 <h2>HTML Paragraphs</h2>
 
-"HTML paragraphs are defined with the <p> tag:"
+
+HTML paragraphs are defined with the `<p>` tag: 
 
 ```
 <p>This is a paragraph.</p>
@@ -223,7 +223,7 @@ The <!DOCTYPE> declaration for HTML5 is:
 
 <h2>HTML Links</h2>
 
-HTML links are defined with the <a> tag:
+HTML links are defined with the `<a>` tag:
 
 ```
 <a href="https://www.codewithumer.com">This is a link</a>
@@ -238,9 +238,9 @@ You will learn more about attributes in a later chapter.
 
 <h2>HTML Images</h2>
 
-HTML images are defined with the <img> tag.
+HTML images are defined with the `<img>` tag.
 
-The source file (src), alternative text (alt), width, and height are provided as attributes:
+The source file `(src)`, alternative text `(alt)`, width, and height are provided as attributes:
 
 ```
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
@@ -267,7 +267,7 @@ HTML elements can be nested (this means that elements can contain other elements
 
 All HTML documents consist of nested HTML elements.
 
-The following example contains four HTML elements (<html>, <body>, <h1> and <p>):
+```The following example contains four HTML elements (<html>, <body>, <h1> and <p>):```
 
 ```
 <!DOCTYPE html>
@@ -282,9 +282,9 @@ The following example contains four HTML elements (<html>, <body>, <h1> and <p>)
 ```
 <h3>Example Explained </h3>
 
-The <html> element is the root element and it defines the whole HTML document.
+The `<html>` element is the root element and it defines the whole HTML document.
 
-It has a start tag <html> and an end tag </html>.
+It has a start tag `<html>` and an end tag `</html>`.
 
 Then, inside the <html> element there is a <body> element:
 
@@ -297,27 +297,27 @@ Then, inside the <html> element there is a <body> element:
 </body>
 ```
 
-The <body> element defines the document's body.
+The `<body>` element defines the document's body.
 
-It has a start tag <body> and an end tag </body>.
+It has a start tag `<body>` and an end tag `</body>`.
 
-Then, inside the <body> element there are two other elements: <h1> and <p>:
+Then, inside the `<body>` element there are two other elements: `<h1>` and `<p>`:
 
 ```
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 ```
 
-The <h1> element defines a heading.
+The `<h1>` element defines a heading.
 
-It has a start tag <h1> and an end tag </h1>:
+It has a start tag `<h1>` and an end tag `</h1>`:
 
 ```
 <h1>My First Heading</h1>
 ```
-The <p> element defines a paragraph.
+The `<p>` element defines a paragraph.
 
-It has a start tag <p> and an end tag </p>:
+It has a start tag `<p>` and an end tag `</p>`:
 
 ```
 <p>My first paragraph.</p>
@@ -342,7 +342,7 @@ Some HTML elements will display correctly, even if you forget the end tag:
 
 HTML elements with no content are called empty elements.
 
-The <br> tag defines a line break, and is an empty element without a closing tag:
+The `<br>` tag defines a line break, and is an empty element without a closing tag:
 
 ```
 <p>This is a <br> paragraph with a line break.</p>
@@ -350,7 +350,7 @@ The <br> tag defines a line break, and is an empty element without a closing tag
 
 <h2>HTML is Not Case Sensitive</h2>
 
-HTML tags are not case sensitive: <P> means the same as <p>.
+HTML tags are not case sensitive: `<P>` means the same as `<p>`.
 
 The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 
@@ -367,7 +367,7 @@ HTML attributes provide additional information about HTML elements.
 
 <h3>The href Attribute</h3>
 
-The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
 
 ```
 <a href="https://www.codewithumer.com">Visit W3Schools</a>
@@ -375,7 +375,7 @@ The <a> tag defines a hyperlink. The href attribute specifies the URL of the pag
 
 <h3>The src Attribute</h3>
 
-The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+The `<img>` tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
 
 ```
 <img src="img_girl.jpg">
@@ -395,7 +395,7 @@ Links to an image that is hosted within the website. Here, the URL does not incl
 
 <h3>The width and height Attributes</h3>
 
-The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
+The `<img>` tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
 
 ```
 <img src="img_girl.jpg" width="500" height="600">
@@ -403,7 +403,7 @@ The <img> tag should also contain the width and height attributes, which specify
 
 <h3>The alt Attribute</h3>
 
-The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
+The required alt attribute for the `<img>` tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
 
 ```
 <img src="img_girl.jpg" alt="Girl with a jacket">
@@ -419,7 +419,7 @@ The style attribute is used to add styles to an element, such as color, font, si
 
 <h3>The lang Attribute</h3>
 
-You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+You should always include the lang attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
 
 The following example specifies English as the language:
 
