@@ -1590,7 +1590,7 @@ Set the width of the table to 100%:
 
 ## HTML Table Column Width
  	 	 
-To set the size of a specific column, add the style attribute on a <th> or <td> element:
+To set the size of a specific column, add the style attribute on a `<th>` or `<td>` element:
 
 ### Example
 
