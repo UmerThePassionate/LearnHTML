@@ -1647,7 +1647,7 @@ Table headers are defined with th elements. Each th element represents a table c
 
 ## Vertical Table Headers
 
-To use the first column as table headers, define the first cell in each row as a <th> element:
+To use the first column as table headers, define the first cell in each row as a `<th>` element:
 
 ### Example
 ```
